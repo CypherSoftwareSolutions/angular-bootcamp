@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('joshuaApp')
-  .controller('BasicsCtrl', function ($scope) {
+  .controller('BasicsCtrl', function ($scope, $rootScope) {
       $scope.template = 'ng-model.html'
       $scope.variable = 'initial value';
       $scope.list = ['one', 'two', 'three'];
@@ -10,4 +10,6 @@ angular.module('joshuaApp')
         console.log(newItem)
         $scope.list.push(newItem);
       }
+
+     $rootScope.rootScopeTest = 'root scope has changed'
   });
