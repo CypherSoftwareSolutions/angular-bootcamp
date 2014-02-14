@@ -1,6 +1,6 @@
 # Wellington Start-up Weekend 2014 - Angular Bootcamp
 
-This repo contains two sample apps to provide an overview of Angular
+This repo contains some sample apps to provide an overview of Angular
 
 ## Links
 
