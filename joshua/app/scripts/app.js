@@ -4,7 +4,8 @@ angular.module('joshuaApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'firebase'
 ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -15,6 +16,10 @@ angular.module('joshuaApp', [
       .when('/basics', {
           templateUrl: 'views/basics.html',
           controller: 'BasicsCtrl'
+      })
+      .when('/firebase', {
+        templateUrl: 'views/firebase.html',
+        controller: 'FirebaseCtrl'
       })
       .otherwise({
         redirectTo: '/'
