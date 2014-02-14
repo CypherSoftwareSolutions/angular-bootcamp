@@ -20,11 +20,8 @@ This repo contains two sample apps
 ### Organising code
 ### DOM
 
-* [ng-include](http://docs.angularjs.org/api/ng.directive:ngInclude)
-* If you are manipulating the DOM, always use a directive
+* If you are touching the DOM, always use a directive - [directive docs](http://docs.angularjs.org/guide/directive), [Simple Diretive](http://jsfiddle.net/A8Vgk/7/), [Directive tutorial](http://www.befundoo.com/university/tutorials/angularjs-directives-tutorial/)
 * always use [angular.element](http://docs.angularjs.org/api/angular.element) to access the DOM
-
-### Gotchyas
 * [ng-include expects an expression, strings must be explicit](http://stackoverflow.com/questions/12521905/angularjs-ng-include-does-not-include-view-unless-passed-in-scope)
 
 ### Servers
