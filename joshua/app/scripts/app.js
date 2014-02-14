@@ -24,4 +24,21 @@ angular.module('joshuaApp', [
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+  .service('firebaseAuth', ["$rootScope", function($rootScope) {
+    var ref = new Firebase("https://torid-fire-5565.firebaseio.com");
+
+    $rootScope.auth = new FirebaseSimpleLogin(ref, function(error, user) {
+      if (user) {
+        $rootScope.current_user = user
+        $rootScope.$emit("login", user);
+      }
+      else if (error) {
+        $rootScope.$emit("loginError", error);
+      }
+      else {
+        $rootScope.current_user = null;
+        $rootScope.$emit("logout");
+      }
+    });
+  }]);

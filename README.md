@@ -21,12 +21,17 @@ This repo contains two sample apps to provide an overview of Angular
 ### DOM
 
 * If you are touching the DOM, always use a directive - [directive docs](http://docs.angularjs.org/guide/directive), [Simple Diretive](http://jsfiddle.net/A8Vgk/7/), [Directive tutorial](http://www.befundoo.com/university/tutorials/angularjs-directives-tutorial/)
-* You can get by without understanding the scope digest cycle initially but eventually it will bite you [Simple Overview](http://onehungrymind.com/notes-on-angularjs-scope-life-cycle/) [Complex Overview](https://github.com/angular/angular.js/wiki/Understanding-Scopes)
+* You can get by without understanding the scope digest cycle initially but eventually it will bite you [Simple Overview](http://onehungrymind.com/notes-on-angularjs-scope-life-cycle/) - [Complex Overview](https://github.com/angular/angular.js/wiki/Understanding-Scopes)
 * always use [angular.element](http://docs.angularjs.org/api/angular.element) to access the DOM
 * Gotchya: [ng-include expects an expression, strings must be explicit](http://stackoverflow.com/questions/12521905/angularjs-ng-include-does-not-include-view-unless-passed-in-scope)
 
 ### Servers
 ### Auth
+
+* hosted services can save you a ton of time and we'd recommend them for Startup weekend [Firebase](https://www.firebase.com/) would be our main pick though [Hoist](http://hoistapps.com/) is a local alternative
+* consider [token based authentication](http://blog.auth0.com/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
+*
+
 ### Routing
 
 
