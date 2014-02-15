@@ -4,6 +4,8 @@ This repo contains a demo app for the Angular bootcamp in conjuction with https:
 
 [Slides](https://docs.google.com/presentation/d/1wJumg70cy8JabrNxNqxa9O3ehDlXgpmifwYWliEquEw/edit?usp=sharing)
 
+[Files](https://torid-fire-5565.firebaseapp.com/angular-bootcamp.tgz)
+
 ## Setup
 
 * Install node, bower, grunt then
