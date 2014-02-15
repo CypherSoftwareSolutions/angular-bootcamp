@@ -2,6 +2,15 @@
 
 This repo contains a demo app for the Angular bootcamp in conjuction with https://github.com/eoinkelly/angular-bootcamp
 
+[Slides](https://docs.google.com/presentation/d/1wJumg70cy8JabrNxNqxa9O3ehDlXgpmifwYWliEquEw/edit?usp=sharing)
+
+## Setup
+
+* Install node, bower, grunt then
+* npm install
+* bower install
+* grunt server
+
 ## Links
 
 * Angular blog http://blog.angularjs.org/ - good for news etc.
